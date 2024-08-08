@@ -16,4 +16,9 @@ public class HomeController {
     public String about() {
         return "DevOps Ex";
     }
+
+    @GetMapping("/add")
+    public String add() {
+        return "추가";
+    }
 }
